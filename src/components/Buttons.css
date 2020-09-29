@@ -1,0 +1,47 @@
+.buttonsPanel {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-selected {
+  color: purple;
+  border: 0.2em solid purple;
+  background-color: #ffffff;
+  font-weight: bolder;
+}
+.resetButon {
+  margin-right: 20vw;
+}
+
+@media (max-width: 770px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+  .resetButon {
+    margin-right: 8vw;
+  }
+}

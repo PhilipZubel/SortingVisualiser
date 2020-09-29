@@ -1,0 +1,14 @@
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+}
+
+.gridItem {
+  background-color: rgba(211, 211, 211, 0.842);
+  border-radius: 10px;
+  border: 1px solid black;
+  width: calc(100vw / 100);
+  margin: calc(100vw / 320);
+}
